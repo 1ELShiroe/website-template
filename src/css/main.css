@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@200&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #121414;
+}
+
+header {
+    background-color: black;
+}
+header .container {
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+header .Logo {
+    color: orange;
+    font-family: "Rubik Glitch",sans-serif;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    color: blueviolet;
+}
+header li a {
+    color: orange;
+    height: auto;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    font-family: "Roboto",sans-serif;
+}
+
+header li:hover{
+    background-color: #FFFFFF;
+    color:black;
+}
+
+.Banner {
+    display: flex;
+    background-image: url("../../src/img/background.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 25em;
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
+}
+.fundosBH {
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+
+.texts h1 {
+    margin-left: 1em;
+    color: #FFFFFF;
+    font-size: 2.25em;
+    font-family: 'Archivo Black', sans-serif;
+}
+.texts p {
+    margin-left: 1.7em;
+    padding: 10px;
+    width: 450px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.tests {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-left: 3em;
+    padding: 10px;
+    border-radius: 10px;
+}
+.A0 {
+    background-color: aquamarine;
+    padding: 10px;
+    font-family: "Staatliches", sans-serif;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 1px solid aquamarine;
+}
+.A0:active, .A1:active {
+    background-color: bisque;
+}
+.A1 {
+    border: 1px solid gray;
+    background-color: gray;
+    padding: 10px;
+    font-family: "Staatliches", sans-serif;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.sobre_cards {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100vw;
+    max-width: 980px;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.card {
+    width: calc(100% /4);
+    border-radius: 10px;
+    background-color: #181a1b;
+    padding: 20px;
+}
+.sobre_cards h3 {
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    font-family: 'Cairo', sans-serif;
+}
+
+.sobre_cards p {
+    font-size: 1rem;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.sobre_cards img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 11px;
+    width: 70px;
+}
+.cmds_tag {
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    color: #ffa500;
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-size: 2em;
+    margin-bottom: -20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #181A1B;;
+}
+.commands {
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #181A1B;;
+}
+.cmds {
+    padding: 7px;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: calc(100% /4);
+    border-radius: 10px;
+    background-color: #202020;
+    height: 60px;
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
+}
+.cmds {
+    width: 300px;
+}
+.cmds h1 {
+    text-align: center;
+}
+.cmds h3 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.cmds p {
+    color: #7a7979;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.tab-tags {
+    font-family: sans-serif;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.sobre {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 980px;
+    margin: auto;
+    background-color: #181a1b;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sobre h3 {
+    color: orange;
+    width: 100%;
+    margin: auto;
+    max-width: 980px;
+    font-family: "Staatliches", sans-serif;
+    font-size: 2em;
+}
+.sobre p {
+    color: #FFFFFF;
+    margin: auto;
+    max-width: 980px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.shop-info {
+    flex-wrap: wrap;
+    width: calc(100% /4);
+    padding: 7px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+}
+.card-shop {
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-shop img {
+    width: 100px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+}
+
+footer p {
+    display: flex;
+    padding: 10px;
+    color: #FFFFFF;
+    margin: auto;
+    font-family: sans-serif;
+}
+.foot {
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+}
+footer ul {
+    display: flex;
+}
+footer li {
+    margin: auto;
+    padding: 20px;
+}
+
+.foot a {
+    margin-right: 100px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
