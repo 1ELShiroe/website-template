@@ -26,7 +26,7 @@
     </ul>
     <h2>Como executar o projeto:</h2>
     <p>Realize o download ou fork do repositório</p>
-    <p class="fork"> git clone https://github.com/1ELShiroe/website-template</p>
+    <p class="fork"> `git clone https://github.com/1ELShiroe/website-template`</p>
     <p>Execute o arquivo index.html com qualquer editor de código e realize as alterações necessárias.</p>
 </div>
 <div>
