@@ -1,7 +1,7 @@
 <div class="center">
     <h1 align="center">DGlent Músic</h1>
-    <p>Site criado com intuido de aprendizagem, voltado a aplicações plataforma do discord</p>
-    <p text-align="center">
+    <p align="center">Site criado com intuido de aprendizagem, voltado a aplicações plataforma do discord</p>
+    <p align="center">
     	<img src="https://img.shields.io/badge/🔎  Status: Completo-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Central_Suporte" />
     <a  href="https://github.com/1ELShiroe">
         <img src="https://img.shields.io/badge/%E2%9D%A4-Responsável%20Geral-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="roadmaps" />
