@@ -1,5 +1,5 @@
 <div class="center">
-    <h1 text-align= "center" >DGlent Músic</h1>
+    <h1 style="text-align: center;" >DGlent Músic</h1>
     <p>Site criado com intuido de aprendizagem, voltado a aplicações plataforma do discord</p>
     <p text-align="center">
     	<img src="https://img.shields.io/badge/🔎  Status: Completo-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Central_Suporte" />
