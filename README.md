@@ -1,17 +1,3 @@
-<style>
-    .center h1{
-        text-align: center;
-    }
-    .center p {
-        text-align: center;
-    }
-    .fork {
-        background-color: #545353;
-        width: 355px;
-        border-radius: 15px;
-        padding:5px
-    }
-</style>
 <div class="center">
     <h1 text-align= "center" >DGlent Músic</h1>
     <p>Site criado com intuido de aprendizagem, voltado a aplicações plataforma do discord</p>
